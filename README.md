@@ -51,4 +51,7 @@ If you want to modify the source code or build the executable yourself, follow t
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/khoi828/MathWrite7-1.0.git
-cd MathWrite7-1.0
+**2. Install required dependencies:**
+Python 3.8+ is required.
+```bash
+pip install PyQt5 matplotlib sympy numpy Pillow PyQt5-sip PyQt5.QtSvg
