@@ -1,11 +1,11 @@
-# 🧮 MathWrite 7 (Offline Edition)
+# 🧮 FormuType 7 (Offline Edition)
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyQt5](https://img.shields.io/badge/UI-PyQt5-green)
 ![SymPy](https://img.shields.io/badge/CAS_Solver-SymPy-orange)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-**MathWrite 7** is an open-source clone that perfectly replicates the WYSIWYG equation editing experience and classic UI of MathType 7, built with Python and PyQt5. 
+**FormuType 7** is an open-source clone that perfectly replicates the WYSIWYG equation editing experience and classic UI of MathType 7, built with Python and PyQt5. 
 
 Designed to operate **100% offline**, it features a native Abstract Syntax Tree (AST) geometric layout engine, an integrated Computer Algebra System (CAS), and seamlessly exports high-quality images (Hi-DPI), AMS-LaTeX, or MathML 3.0 directly to Microsoft Word.
 
@@ -52,7 +52,7 @@ If you want to modify the source code or build the executable yourself, follow t
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/Your_Username/MathWrite7-Offline.git
+git clone https://github.com/khoi828/FormuType7.git
 cd MathWrite7-Offline
 ```
 
@@ -74,7 +74,7 @@ python make_icon.py
 ```
 Then, compile the source code into a single executable:
 ```bash
-pyinstaller --noconsole --onefile --clean --icon="math_icon.ico" --add-data "math_icon.ico;." --collect-data matplotlib --hidden-import sympy --hidden-import numpy --hidden-import PyQt5.QtSvg --name "MathWrite7" mathwrite7_english.py
+pyinstaller --noconsole --onefile --clean --icon="math_icon.ico" --add-data "math_icon.ico;." --collect-data matplotlib --hidden-import sympy --hidden-import numpy --hidden-import PyQt5.QtSvg --name "FormuType" FormuType7.py
 ```
 The final standalone `.exe` will be located in the `dist` folder.
 
