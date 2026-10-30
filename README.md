@@ -43,7 +43,7 @@ Designed to operate **100% offline**, it features a native Abstract Syntax Tree 
 ### For End-Users (No Installation Required)
 You do not need to install Python or any dependencies to use this application.
 1. Navigate to the **[Releases](../../releases)** page of this repository.
-2. Download the latest **`MathWrite7.exe`** file.
+2. Download the latest **`FormuType7.exe`** file.
 3. Move the file to your Desktop or any preferred folder and **double-click to run**. The software is fully portable and works 100% offline.
 
 ### For Developers (Build from Source)
